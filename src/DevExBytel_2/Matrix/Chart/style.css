@@ -1,0 +1,16 @@
+#chart {
+    height:300px;
+    width: inherit;
+   
+}
+
+#chart .dx-export-menu-button rect {
+    fill: #1396C1;
+    stroke: black;
+  }
+
+  .dx-texteditor.dx-editor-outlined {
+    background: #f5f5f5;
+    border: 1px solid #096dd9;
+    border-radius: 4px;
+}

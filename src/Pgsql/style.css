@@ -1,0 +1,77 @@
+.indicatorCell {
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+  
+.cellContent {
+text-align: center;
+
+}
+
+.cellContainer {
+    height: 35px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.05s ease-in-out;
+    box-shadow: -2px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    /* transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95); */
+}
+.cellContainer:hover {
+    /* transform: translate(-1%, -1%) scale(1.05); */
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+
+.supCellContainer{
+    height: 35px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.05s ease-in-out;
+    box-shadow: -2px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    /* transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95); */
+}
+
+.headerCellContainer{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.05s ease-in-out;
+    box-shadow: -2px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.rowCellContainer{
+    height: 35px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.05s ease-in-out;
+    box-shadow: -2px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+
+.titlesRow:hover{
+    cursor: pointer;
+    color:black
+}
+
+.dx-treelist-text-content{
+    width: 100%
+}
+
+#site{
+    max-height: 700px;
+}
